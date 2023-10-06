@@ -2,27 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FacebookNY" />
-        <module name="ServiceRegistry" />
         <module name="FacebookUK" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="gs-multi-module" target="17" />
-      <module name="jpop2" target="17" />
-      <module name="JPOP2" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="FacebookNY" options="-parameters" />
       <module name="FacebookUK" options="-parameters" />
-      <module name="ServiceRegistry" options="-parameters" />
     </option>
   </component>
 </project>
